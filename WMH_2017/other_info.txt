@@ -1,0 +1,7 @@
+- Inputs: ["FLAIR_2mm", "T1_2mm"]
+- Outputs: ["wmh_2mm"]
+- Normalization parameters:
+    shifts: [130, 262]
+    scales: [226, 490]
+- Patch size: [136, 136, 82]
+- Masking: "T1_2mm" > 25

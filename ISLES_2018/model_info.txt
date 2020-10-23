@@ -1,0 +1,28 @@
+model = create_unet_like_model(
+    number_input_features=5,
+    subsample_factors_per_pathway=[
+        (1, 1, 1),
+        (3, 3, 3),
+        (9, 9, 9),
+        (27, 27, 27)
+    ],
+    kernel_sizes_per_pathway=[
+        [[(3, 3, 1), (3, 3, 3)], [(3, 3, 3), (3, 3, 1)]],
+        [[(3, 3, 1), (3, 3, 3)], [(3, 3, 3), (3, 3, 1)]],
+        [[(3, 3, 1), (3, 3, 3)], [(3, 3, 3), (3, 3, 1)]],
+        [[(3, 3, 3), (3, 3, 3)], []]
+    ],
+    number_features_per_pathway=[
+        [[10, 20], [20, 10]],
+        [[20, 40], [40, 20]],
+        [[40, 80], [80, 40]],
+        [[80, 80], []]
+    ],
+    output_size=[136, 136, 82],
+    padding='same',
+    pooling='avg',
+    upsampling='linear',
+    instance_normalization=False,
+    mask_output=True,
+    l2_reg=0
+)
