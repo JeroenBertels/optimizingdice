@@ -1,10 +1,10 @@
 Fold 0:
-['case_4', 'case_10', 'case_11', 'case_25', 'case_27', 'case_28', 'case_30', 'case_36', 'case_37']
+['training_13', 'training_2', 'training_20', 'training_37', 'training_39', 'training_4', 'training_41', 'training_47', 'training_48']
 Fold 1:
-['case_2', 'case_15', 'case_18', 'case_20', 'case_22', 'case_29', 'case_31', 'case_40', 'case_42']
+['training_11', 'training_24', 'training_28', 'training_31', 'training_33', 'training_40', 'training_42', 'training_7', 'training_9']
 Fold 2:
-['case_5', 'case_8', 'case_13', 'case_14', 'case_16', 'case_17', 'case_32', 'case_35', 'case_38']
+['training_14', 'training_18', 'training_22', 'training_23', 'training_26', 'training_27', 'training_43', 'training_46', 'training_5']
 Fold 3:
-['case_1', 'case_6', 'case_7', 'case_12', 'case_24', 'case_26', 'case_33', 'case_34']
+['training_10', 'training_15', 'training_16', 'training_21', 'training_36', 'training_38', 'training_44', 'training_45']
 Fold 4:
-['case_0', 'case_3', 'case_9', 'case_19', 'case_21', 'case_23', 'case_39', 'case_41']
+['training_1', 'training_12', 'training_19', 'training_30', 'training_32', 'training_35', 'training_6', 'training_8']
